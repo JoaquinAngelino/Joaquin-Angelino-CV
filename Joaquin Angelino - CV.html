@@ -34,6 +34,22 @@
             margin-top: 0.4em;
             margin-bottom: 0;
         }
+        .role-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 1em;
+            margin-top: 0.4em;
+        }
+        .role-header .role-title {
+            margin-top: 0;
+        }
+        .role-date {
+            font-weight: bold;
+            font-size: 0.98em;
+            color: #3498db;
+            white-space: nowrap;
+        }
         .company-date {
             font-weight: bold;
             font-size: 0.98em;
@@ -99,8 +115,11 @@
             <h2>Experience</h2>
 
             <div>
-                <div class="role-title">Full Stack Developer - LegalAtoms</div>
-                <div class="company-date">Legal workflow platform · Ruby on Rails, Angular, AWS | February 2026 – Present (Remote, United States)</div>
+                <div class="role-header">
+                    <div class="role-title">Full Stack Developer - LegalAtoms</div>
+                    <div class="role-date">February 2026 – Present</div>
+                </div>
+                <div class="company-date">Legal workflow platform · Ruby on Rails, Angular, AWS · Remote, United States</div>
                 <ul>
                     <li>Ship full-stack features for a legal document and workflow platform serving production users, applying Spec Driven Development: detailed specifications defined and agreed before implementation, reducing rework and review cycles.</li>
                     <li>Own production reliability: monitor and debug live systems via AWS CloudWatch and DynamoDB, and author regression tests that prevent recurrence of production incidents.</li>
@@ -110,8 +129,11 @@
             </div>
 
             <div>
-                <div class="role-title">Full Stack Developer</div>
-                <div class="company-date">Carbon-base · Software consultancy · React, React Native, Node.js, TypeScript | March 2023 – March 2026 (Remote, Argentina)</div>
+                <div class="role-header">
+                    <div class="role-title">Full Stack Developer</div>
+                    <div class="role-date">March 2023 – March 2026</div>
+                </div>
+                <div class="company-date">Carbon-base · Software consultancy · React, React Native, Node.js, TypeScript · Remote, Argentina</div>
                 <ul>
                     <li>Led development of an internal communication platform for a major Argentine company: designed the architecture and implemented indexed pagination, cutting data-retrieval times on high-volume views.</li>
                     <li>Upgraded a large React Native codebase from deprecated versions to the latest stable release, unblocking dependency updates and improving long-term maintainability.</li>
@@ -121,8 +143,11 @@
             </div>
 
             <div>
-                <div class="role-title" style="margin-top: 5.5em;">Full Stack Developer – Salesforce Commerce Cloud</div>
-                <div class="company-date">The Blue Option · E-commerce · SFCC, TypeScript, React | May 2025 – January 2026 (Remote, Dominican Republic)</div>
+                <div class="role-header" style="margin-top: 5.5em;">
+                    <div class="role-title">Full Stack Developer – Salesforce Commerce Cloud</div>
+                    <div class="role-date">May 2025 – January 2026</div>
+                </div>
+                <div class="company-date">The Blue Option · E-commerce · SFCC, TypeScript, React · Remote, Dominican Republic</div>
                 <ul>
                     <li>Built an Orders List interface from scratch on Salesforce Commerce Cloud, tailored to the client's operational workflows.</li>
                     <li>Implemented discount and order-labeling systems that streamlined order management for operations staff.</li>
@@ -131,8 +156,11 @@
             </div>
 
             <div>
-                <div class="role-title">Full Stack Developer (Volunteer)</div>
-                <div class="company-date">We-Exchange · React, Flask | December 2022 – February 2023 (Remote, Peru)</div>
+                <div class="role-header">
+                    <div class="role-title">Full Stack Developer (Volunteer)</div>
+                    <div class="role-date">December 2022 – February 2023</div>
+                </div>
+                <div class="company-date">We-Exchange · React, Flask · Remote, Peru</div>
                 <ul>
                     <li>Migrated a Flask-served frontend to React and optimized bundle size and load performance for faster rendering.</li>
                 </ul>
